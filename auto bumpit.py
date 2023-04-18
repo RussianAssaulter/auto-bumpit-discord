@@ -16,7 +16,7 @@ header = {
     'authorization': token
 }
 
-r = requests.post(f"https://discord.com/api/v8/channels/{channelid}/messages", data=message, headers=header)
+r = requests.post(f"https://discord.com/api/v9/channels/{channelid}/messages", data=message, headers=header)
 
 while True:
     r
