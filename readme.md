@@ -8,4 +8,4 @@ Things you will need:
 ***NOTE*** THIS IS A "SELFBOT", Which is against https://discord.com/terms and if detected can lead to a ban, i recommend using an alt while running.
 ***I AM NOT RESPONSIBLE FOR ANY BANS!***
 
-*Feel Free To Fork, Just Made This As A Quick Scripts Because I Couldn't Be Bothered To Manually Bump Every Hour.*
+*Feel Free To Fork, Just Made This As A Quick Scripts Because I Couldn't Be Bothered To Manually Bump Every Hour.* , This is a simple script using post requests. 
