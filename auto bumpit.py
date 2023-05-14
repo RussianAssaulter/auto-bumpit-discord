@@ -19,12 +19,17 @@ header = {
 r = requests.post(f"https://discord.com/api/v9/channels/{channelid}/messages", data=message, headers=header)
 
 while True:
-    r
-    time.sleep(3600)
-    if r.status_code == 204:
+    def bump():
+     r = requests.post(f"https://discord.com/api/v9/channels/{channelid}/messages", data=message, headers=header)
+     if r.status_code == 204:
         print(Fore.GREEN+"Succesfully Bumped!")
-    else:
+     else:
         print("Failed To Bump!")
+        time.sleep(3600)
+        bump()
+    
+    
+    
 
  
  #simple auto-bumpit python script using plain post requests.
