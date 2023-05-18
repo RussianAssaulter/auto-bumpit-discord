@@ -23,9 +23,11 @@ while True:
      r = requests.post(f"https://discord.com/api/v9/channels/{channelid}/messages", data=message, headers=header)
      if r.status_code == 204:
         print(Fore.GREEN+"Succesfully Bumped!")
+        time.sleep(3600)
+        bump()
+                  
      else:
         print("Failed To Bump!")
-        time.sleep(3600)
         bump()
     
     
